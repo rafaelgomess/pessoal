@@ -1,0 +1,50 @@
+{
+    "clientConfig": {
+        "encryptClientConfig": "false",
+        "dynamicSteering": "false",
+        "nsclient_api_security_no_enc": "false",
+        "secureAccess": "false"
+    },
+    "privateApps": {
+        "reauth_enabled": "false",
+        "reauthentication_on_logon": "false",
+        "device_admin": {
+            "prelogin_username": "",
+            "auto_start_prelogin_tunnel": "true",
+            "enable_aoac_by_prelogon": "true",
+            "cert_ca": ""
+        }
+    },
+    "npa_client_compose_device_user_id": "false",
+    "npa": {
+        "host": "",
+        "lb_host": "",
+        "port": "443",
+        "keepalive_timeout": "5",
+        "tenant": "",
+        "domain": "newedge.io",
+        "cache": {
+            "dns": {
+                "resolvedIP": "",
+                "ttl": "0",
+                "lastResolvedTime": "0",
+                "stats": {
+                    "failureCount": "0",
+                    "successCount": "0",
+                    "lastReportedTime": "0"
+                }
+            }
+        },
+        "npa_local_broker_v1": "false",
+        "gslb": {
+            "host": "",
+            "port": "443"
+        }
+    },
+    "npa_client_use_cgnat": "false",
+    "publisher_selection": "false",
+    "npa_gslb_client": "false",
+    "npa_gslb_client_v2": "false",
+    "drop_svcb_dns_resolver_query": "false",
+    "npa_handle_dns_https_query": "false"
+}

@@ -1,0 +1,28 @@
+{
+    "0": {
+        "client_status": {
+            "type": "Event",
+            "timestamp": "1687444634",
+            "client_version": "105.1.0.1406",
+            "service_name": "Internet Security",
+            "status": "Disabled",
+            "has_error": "0",
+            "status_v2": "Disabled",
+            "device_classification_status": "unknown",
+            "host_info": {
+                "last_hostinfo_update_timestamp": "1687444632",
+                "hostname": "VMA_QAN_17",
+                "os": "Windows",
+                "os_version": "10.0.19044",
+                "device_make": "Dell Inc.",
+                "device_model": "OptiPlex 3080",
+                "serialNumber": "9151SJ3",
+                "nsdeviceuid": "E57E9079-3FC8-DFFA-EDA7-53E505933D02",
+                "managementID": ""
+            },
+            "event": "Installed",
+            "event_details": "Installed client version 105.1.0.1406",
+            "actor": "System"
+        }
+    }
+}

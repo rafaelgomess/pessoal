@@ -1,0 +1,9 @@
+{
+    "nsUserConfig": {
+        "enablePerUserConfig": "false",
+        "configLocation": "",
+        "token": "75Aqd0qaJ00rLIFW4x",
+        "host": "addon-aec.goskope.com",
+        "autoupdate": "true"
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "cache": {
+        "device": {
+            "hostname": "VMA_QAN_17",
+            "updateTime": "1687444632",
+            "serial_num": "9151SJ3",
+            "os": "Windows",
+            "os_version": "10.0.19044",
+            "model": "OptiPlex 3080",
+            "make": "Dell Inc.",
+            "ns_version": "105.1.0.1406"
+        },
+        "device_token": "",
+        "device_token_lastsend": "0",
+        "dns": {
+            "resolvedIP": "",
+            "ttl": "0",
+            "lastResolvedTime": "0",
+            "stats": {
+                "failureCount": "0",
+                "successCount": "0",
+                "lastReportedTime": "0"
+            }
+        }
+    },
+    "clientConfig": {
+        "priority": "-999",
+        "configurationName": "Client Default",
+        "allowClientDisabling": "false",
+        "allowNpaDisabling": "false",
+        "npa_client_allow_disable": "false",
+        "clientAssistedGTM": "false",
+        "steering_config_2": "false",
+        "userNotification": "true",
+        "hideClientIcon": "false",
+        "clientHandleOverlappingDomains": "false",
+        "reportClientStatus": "false",
+        "sendDeviceInfo": "false",
+        "dynamicSteering": "false",
+        "deviceUniqueID": "true",
+        "npa_client_compose_device_user_id": "false",
+        "always_send_nsdeviceuid_new": "false",
+        "checkCiscoVpn": "false",
+        "configUpdate": {
+            "updateIntervalInMin": "60"
+        },
+        "clientUpdate": {
+            "updateIntervalInMin": "240",
+            "allowAutoUpdate": "true",
+            "showUpdateNotification": "true",
+            "allowAutoGoldenUpdate": "false",
+            "goldenReleaseVersion": "",
+            "goldenDotReleaseUpdate": "false"
+        },
+        "clientUninstall": {
+            "allowUninstall": "true",
+            "hash": "",
+            "salt": ""
+        },
+        "clientStatusUpdate": {
+            "heartbeatIntervalInMin": "30"
+        },
+        "protocol": "tls",
+        "bypassPacDownloadFlow": "false",
+        "localTrafficBypass": "true",
+        "secureAccess": "false",
+        "checkSNI": "false",
+        "enableClientSelfProtection": "false",
+        "enableAOACSupport": "false",
+        "nsclient_api_security_no_enc": "false",
+        "enableUpdatePropertyFrameSupport": "false",
+        "enableTunnelSessionNotFound": "false",
+        "metrics": {
+            "enable": "false",
+            "interval": "360",
+            "backoff_interval": "720",
+            "ping": "3",
+            "traceroute": "1",
+            "dns": "1",
+            "hosts": ""
+        },
+        "externalProxyConfig": "true",
+        "debugSettings": "false",
+        "reconfigureUser": "false",
+        "proxyAuth": "false",
+        "bypassLoopbackDNS": "false",
+        "enhancedCertPinnedApplist": "false",
+        "injectAtTransportLayer": "false",
+        "encryptClientConfig": "false",
+        "bypassPrivateTrafficAtDriver": "false",
+        "supportUDPExceptions": "false",
+        "handleExceptionsAtDriver": "false",
+        "OverrideAccessMethodDetection": "false",
+        "duplicateRccDataToGEF": "false",
+        "enableDemClientStatus": "false",
+        "enableDemHeartbeat": "true",
+        "eventForwarderHost": "",
+        "postureValidation": {
+            "periodic_validation_enabled": "false",
+            "validation": {
+                "interval": "2147483647"
+            }
+        },
+        "overrideUserDisableAfterLogin": "false"
+    },
+    "logLevel": "",
+    "log": {
+        "logLevel": "4",
+        "enablePktDump": "false"
+    },
+    "nsgw": {
+        "host": "",
+        "backupHost": "",
+        "port": ""
+    },
+    "gslb": {
+        "host": "",
+        "port": ""
+    },
+    "sfCheck": {
+        "SFCheckerHost": "",
+        "SFCheckerIP": "",
+        "SFCheckerIP6": ""
+    },
+    "onpremcheck": {
+        "onprem_use_dns": "true",
+        "onprem_host": "",
+        "onprem_ip": "",
+        "onprem_http_host": "",
+        "onprem_http_tcp_connection_timeout": "10"
+    },
+    "failClose": {
+        "fail_close": "false",
+        "exclude_npa": "false",
+        "notification": "true",
+        "captive_portal_timeout": "0"
+    },
+    "privateApps": {
+        "reauth_enabled": "false",
+        "reauthentication_on_logon": "false",
+        "device_admin": {
+            "prelogin_username": "",
+            "auto_start_prelogin_tunnel": "true",
+            "enable_aoac_by_prelogon": "true",
+            "cert_ca": ""
+        }
+    },
+    "npa_client_compose_device_user_id": "false",
+    "npa": {
+        "host": "",
+        "lb_host": "",
+        "port": "443",
+        "keepalive_timeout": "5",
+        "tenant": "",
+        "domain": "newedge.io",
+        "cache": {
+            "dns": {
+                "resolvedIP": "",
+                "ttl": "0",
+                "lastResolvedTime": "0",
+                "stats": {
+                    "failureCount": "0",
+                    "successCount": "0",
+                    "lastReportedTime": "0"
+                }
+            }
+        },
+        "npa_local_broker_v1": "false",
+        "gslb": {
+            "host": "",
+            "port": "443"
+        }
+    },
+    "npa_client_use_cgnat": "false",
+    "publisher_selection": "false",
+    "npa_gslb_client": "false",
+    "npa_gslb_client_v2": "false",
+    "drop_svcb_dns_resolver_query": "false",
+    "npa_handle_dns_https_query": "false",
+    "idpconfig": {
+        "allowIdPLogout": "false"
+    },
+    "prc_dp_tenant": "false",
+    "prc_dp_geofence": "false"
+}
